@@ -1,0 +1,79 @@
+body {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.nav-content > * {
+  padding: 25px;
+}
+
+.nav-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.nav-content ul {
+  margin-bottom: 0;
+}
+
+.nav-content a {
+  font-size: .9rem;
+  font-weight: 700;
+  margin: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  height: 100vh;
+  margin-top: 74px;
+  background-image: url("https://technext.github.io/creative-2/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .img-cover {
+  background-color: rgba(92, 77, 66, 0.8);
+}
+
+header .header-text {
+  margin-top: 100px;
+}
+
+header .header-text h1 {
+  font-size: 3rem;
+}
+
+header .header-text .divider {
+  color: #F4623A;
+  height: 5px;
+  width: 60px;
+  margin: 30px;
+}
+
+header .header-text p {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header .header-text a {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  background-color: #F4623A;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.25rem 2.25rem;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */
