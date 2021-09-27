@@ -135,25 +135,52 @@ header .header-text a {
   font-size: 2.5rem;
 }
 
-.projects .project {
-  position: relative;
+.projects .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.projects .project .project-capition {
+.projects .container-fluid .project {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.projects .container-fluid .project .project-capition {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  background-color: rgba(244, 98, 58, 0.9);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
-.projects .project .project-capition p {
+.projects .container-fluid .project .project-capition p {
   font-size: 1.2rem;
   margin-bottom: 0;
 }
 
-.projects .project .project-capition p.category {
+.projects .container-fluid .project .project-capition p.category {
   font-size: 0.85rem;
   font-weight: 600;
+}
+
+.project-capition:hover {
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=style.css.map */
