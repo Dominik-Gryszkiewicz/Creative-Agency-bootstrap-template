@@ -202,4 +202,35 @@ header .header-text a {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+.contact {
+  padding: 7.5rem;
+}
+
+.contact .contact-description .divider {
+  color: #F4623A;
+  height: 5px;
+  width: 60px;
+  margin: 25px;
+}
+
+.contact form > * {
+  margin: 20px 0;
+  padding: 1rem 0.75rem;
+}
+
+.contact form button {
+  background-color: #F4623A;
+  color: white;
+  margin-top: 0;
+  width: 100%;
+  padding: 1.25rem 2.25rem;
+}
+
+.contact i {
+  display: block;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
