@@ -233,4 +233,12 @@ header .header-text a {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer p a {
+  color: #F4623A;
+}
 /*# sourceMappingURL=style.css.map */
