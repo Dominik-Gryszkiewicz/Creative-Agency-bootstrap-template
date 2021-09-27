@@ -1,5 +1,5 @@
 header 
-    height: 100vh
+    min-height: calc(100vh - 74px)
     margin-top: 74px
     background-image: url('https://technext.github.io/creative-2/assets/img/bg-masthead.jpg')
     background-repeat: no-repeat
@@ -8,10 +8,11 @@ header
 
     .img-cover
         background-color: rgba(92, 77, 66, 0.8)
+
+    .row 
+        height: calc(100vh - 74px)
     
     .header-text
-        margin-top: 100px
-
         h1
             font-size: 3rem
 
@@ -26,12 +27,6 @@ header
             color: rgba(255, 255, 255, 0.75)
 
         a 
-            display: inline-block
-            font-size: 0.85rem
-            font-weight: 700
             color: white
             background-color: $main-orange
-            text-decoration: none
-            text-transform: uppercase
-            padding: 1.25rem 2.25rem
             margin-top: 30px

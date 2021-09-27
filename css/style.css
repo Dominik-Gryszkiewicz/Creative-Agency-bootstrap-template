@@ -2,6 +2,22 @@ body {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+.btn {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.add-padding {
+  padding: 30px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -33,7 +49,7 @@ nav {
 }
 
 header {
-  height: 100vh;
+  min-height: calc(100vh - 74px);
   margin-top: 74px;
   background-image: url("https://technext.github.io/creative-2/assets/img/bg-masthead.jpg");
   background-repeat: no-repeat;
@@ -45,8 +61,8 @@ header .img-cover {
   background-color: rgba(92, 77, 66, 0.8);
 }
 
-header .header-text {
-  margin-top: 100px;
+header .row {
+  height: calc(100vh - 74px);
 }
 
 header .header-text h1 {
@@ -66,14 +82,29 @@ header .header-text p {
 }
 
 header .header-text a {
-  display: inline-block;
-  font-size: 0.85rem;
-  font-weight: 700;
   color: white;
   background-color: #F4623A;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 1.25rem 2.25rem;
   margin-top: 30px;
+}
+
+.need {
+  min-height: 50vh;
+  padding: 6.5rem 2rem 8rem 2rem;
+  background-color: #F4623A;
+}
+
+.need .need-text {
+  height: 100%;
+}
+
+.need .need-text a {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.need .divider {
+  height: 5px;
+  width: 60px;
+  margin: 30px;
 }
 /*# sourceMappingURL=style.css.map */
