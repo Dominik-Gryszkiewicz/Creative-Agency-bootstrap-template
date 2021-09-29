@@ -15,21 +15,31 @@
 <body>
 
 <div class="text-center">
-    <nav>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container">
-            <div class="row">
-                <div class="nav-content col-12 d-flex justify-content-between">
-                    <h5>Start Bootstrap</h4>
-                    <ul class="list-unstyled d-flex">
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#Portfolio">Portfolio</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+          <h5><a class="navbar-brand" href="#">Start Bootstrap</a></h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-content" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <header>
         <div class="img-cover add-padding w-100 h-100">
@@ -46,7 +56,7 @@
         </div>
     </header>
 
-    <section class="need text-white">
+    <section class="need text-white" id="about">
         <div class="container">
             <div class="row">
                 <div class="need-text col-lg-8 mx-auto">
@@ -59,7 +69,7 @@
         </div>
     </section>
 
-    <section class="service">
+    <section class="service" id="services">
         <div class="container">
             <div class="row">
                 <h2>At Your Service</h2>
@@ -90,7 +100,7 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="portfolio">
         <div class="container-fluid">
             <div class="row">
                 <div class="project col-sm-6 col-lg-4">
@@ -159,7 +169,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-description col-lg-8 col-xl-6 mx-auto">
@@ -191,7 +201,7 @@
         <div class="container">
             <div class="row">
                 <p class="small text-muted">Copyright © 2021 - Company Name</p>
-                <p class="small text-muted">Distributed By <a href="#">Themewagon</a></p>
+                <p class="small text-muted mb-0">Distributed By <a href="#">Themewagon</a></p>
             </div>
         </div>
     </footer>
